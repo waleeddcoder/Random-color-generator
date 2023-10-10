@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+    background-color: rgb(70, 80, 76);
+
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    height: auto;
+    width: 20rem;
+    background-color: transparent;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorCode {
+    margin-top: auto;
+}
+
+.generator {
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 15px;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+}
+
+.generator:hover {
+    opacity: 0.9;
+
+}
